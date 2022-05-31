@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Oxygen', sans-serif;
+        }
+
+        .formulario{
+            background: white;
+            text-align: center;
+            padding: 40px;
+            width: 50%;
+            margin-left: 25%;
+            border:rgb(137, 202, 39) solid 5px;
+        }
+
+        .texto{
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 60%;
+        }
+
+        .consola{
+            padding: 20px;
+            width: 40%;
+            margin-bottom: 20px;
+        }
+
+        .enviar{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="formulario">
+        <h2>Servicio de Streaming Favorito</h2>
+        <br>
+        <input type="text" placeholder="Nombre Completo" class="texto">
+        <br>
+        <input type="text" placeholder="Edad" class="texto">
+        <br>
+        <select class="Servicio">
+            <option>Netflix</option>
+            <option>Amazon Prime</option>
+            <option>Prime Video</option>
+	<option>Disney+</option>
+	<option>Star+</option>
+        </select>
+        <br>
+        <input type="text" placeholder="Serie Favorita" class="texto">
+        <br>
+        <input type="submit" value="Enviar" class="enviar">
+    </div>
+</body>
+</html>
